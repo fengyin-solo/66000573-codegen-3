@@ -30,7 +30,7 @@ function draw() {
 
   if (!sliceData || !sliceData.length) return
 
-  const wl = store.windowVal, ww = store.levelVal
+  const ww = store.windowVal, wl = store.levelVal
   const lower = wl - ww / 2, upper = wl + ww / 2
 
   const rows = sliceData.length, cols = sliceData[0].length
